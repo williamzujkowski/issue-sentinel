@@ -1,0 +1,22 @@
+{
+  "name": "issue-sentinel",
+  "version": "1.0.0",
+  "description": "Security pipeline E2E tester — validates nexus-agents issue_triage trust classification and injection detection",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": ["security", "triage", "mcp", "nexus-agents", "e2e-test"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.24.0"
+  }
+}
